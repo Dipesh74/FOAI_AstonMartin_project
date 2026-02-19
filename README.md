@@ -37,6 +37,41 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 # FOAI_AstonMartin
 # FOAI_AstonMartin_project
+
+A small Next.js + TypeScript project showcasing an Aston Martin sequence/experience.
+
+Purpose
+-------
+This repository contains a Next.js app with a canvas-based scroll experience and an image sequence located under `public/images/aston-sequence/`.
+
+Quick start
+-----------
+Prerequisites: Node.js 18+ and npm or pnpm.
+
+1. Install dependencies
+
+	npm install
+
+2. Run the development server
+
+	npm run dev
+
+3. Build for production
+
+	npm run build
+
+Notes
+-----
+- The repo includes many image frames under `public/images/aston-sequence/`. These are large and can bloat the git history. Consider using Git LFS for those files if you plan to continue adding large media.
+- Add environment-specific configuration to a `.env.local` file and don't commit secrets.
+
+Contributing
+------------
+Small tweaks or documentation improvements are welcome. Open an issue or a PR with a short description of the change.
+
+License
+-------
+Add a license as appropriate for your project.
 # FOAI_AstonMartin_project
 # FOAI_AstonMartin_project
 # FOAI_AstonMartin_project
