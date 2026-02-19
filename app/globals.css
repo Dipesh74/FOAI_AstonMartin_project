@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-pagani-black: #1a1a1a;
+  --color-pagani-gold: #D4AF37;
+  --color-bright-gold: #FFD700;
+  --color-carbon-gray: #2a2a2a;
+
+  /* Font Families */
+  --font-orbitron: var(--font-orbitron), sans-serif;
+  --font-rajdhani: var(--font-rajdhani), sans-serif;
+}
+
+/* Global Styles */
+body {
+  background-color: var(--color-pagani-black);
+  color: white;
+  font-family: var(--font-rajdhani);
+  /* Orbitron applied selectively via classes */
+}
+
+/* Selection */
+::selection {
+  background-color: var(--color-pagani-gold);
+  color: black;
+}
